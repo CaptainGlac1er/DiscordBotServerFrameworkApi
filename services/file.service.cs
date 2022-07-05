@@ -4,5 +4,5 @@ using System.Threading.Tasks;
 public interface IFileService {
     public Task<T> getFileData<T>(string keyId);
     
-    public void setFileData<T>(string keyId, T data);
+    public Task setFileData<T>(string keyId, T data);
 }

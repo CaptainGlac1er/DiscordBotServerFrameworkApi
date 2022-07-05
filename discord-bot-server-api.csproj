@@ -1,7 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
+    <OutputType>Library</OutputType>
     <TargetFramework>net6.0</TargetFramework>
+    <Version>0.0.1</Version>
+    <Company>GlacierByte</Company>
+    <Authors>George Walter Colgrove IV</Authors>
+    <Product>Discord Bot Server Api</Product>
+    <Copyright>GlacierByte</Copyright>
     <RootNamespace>GlacierByte.Discord.Server.Api</RootNamespace>
   </PropertyGroup>
 
